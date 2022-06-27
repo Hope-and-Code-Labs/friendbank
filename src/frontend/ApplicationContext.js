@@ -1,8 +1,8 @@
 import React from 'react';
 
 export const defaultApplicationContext = {
-  title: 'Ed Markey Organizing Hub',
-  cover: '/assets/em-header-original.jpg',
+  title: 'Friendbank Organizing Hub',
+  cover: '/assets/em-header-original.jpg', // todo: customizable
   status: 200,
   data: {},
 };
