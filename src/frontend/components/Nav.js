@@ -15,6 +15,7 @@ import {
 } from '../routes';
 import { ENGLISH, SPANISH, SPANISH_PREFIX } from '../../shared/lang';
 import { STAFF_ROLE } from '../../shared/roles';
+import config from '../../config';
 
 const NavStack = styled.div`
   display: flex;
@@ -185,6 +186,8 @@ export default function Nav(props) {
     ]);
   }, []);
 
+  var logoImgUrl = config.LOGO_IMG_URL;
+
   return (
     <NavStack>
       <RedirectRow>
@@ -199,7 +202,7 @@ export default function Nav(props) {
       </RedirectRow>
       <NavContainer>
         <Logo href={makeLocaleLink(HOMEPAGE_ROUTE)}>
-          <img src="https://ed-markey-supporter-photos.s3.amazonaws.com/logo.png" alt={getCopy('nav.logoAlt')} />
+          <img src="{logoImgUrl}" alt={getCopy('nav.logoAlt')} />
         </Logo>
         <NavItemsContainer>
           <LeftLink href={languageLink}>

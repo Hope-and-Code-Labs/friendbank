@@ -2,6 +2,7 @@ import React from 'react';
 import styled, { css } from 'styled-components';
 import getCopy from '../utils/getCopy';
 import makeApiRequest from '../utils/makeApiRequest';
+import config from '../../config';
 
 export const BaseSingleLineTextInput = styled.input`
   width: 100%;
@@ -477,6 +478,7 @@ export function CodeInputField(props) {
   } = props;
 
   const joinedId = `${formId}-${fieldId}`;
+  const baseUrl = config.BASE_URL;
 
   const { onFocus, onBlur, isValidationMessageDisplayed } = useValidationController(hasTouchedSubmit, validationMessage, rest);
 
@@ -537,7 +539,7 @@ export function CodeInputField(props) {
       {help && <HelpText as="p">{help}</HelpText>}
       <CodeInputFieldWrapper>
         <DomainLabel>
-          support.edmarkey.com/
+          {baseUrl}/
         </DomainLabel>
         <BaseSingleLineTextInput
           {...rest}
