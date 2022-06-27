@@ -8,7 +8,7 @@ const {
 } = process.env;
 
 const getPageForCode = require('../src/api/db/getPageForCode');
-const BSD_VAN_MAP = require('../src/api/utils/markeyVanFields');
+const BSD_VAN_MAP = require('../src/api/utils/vanFields');
 
 function flipVanMap(input) {
   const output = {};

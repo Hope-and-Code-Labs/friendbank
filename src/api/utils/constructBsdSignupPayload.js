@@ -1,4 +1,4 @@
-const BSD_VAN_MAP = require('./markeyVanFields');
+const BSD_VAN_MAP = require('./vanFields');
 
 const {
   BSD_SIGNUP_SUPPORT_ID,

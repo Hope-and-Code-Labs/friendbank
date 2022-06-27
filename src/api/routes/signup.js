@@ -7,7 +7,7 @@ const apiErrorHandler = require('../utils/apiErrorHandler');
 const validateAndNormalizeApiRequestFields = require('../utils/validateAndNormalizeApiRequestFields');
 
 const EMAIL_FREQUENCY = require('../../shared/emailFrequency');
-const BSD_VAN_MAP = require('../utils/markeyVanFields');
+const BSD_VAN_MAP = require('../utils/vanFields');
 
 const {
   BSD_SIGNUP_CODE_ID,
