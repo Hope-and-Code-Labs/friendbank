@@ -1,12 +1,10 @@
 # friendbank
 
-A relational organizing tool developed for Ed Markey's 2020 senate re-elect. [Read more about the relational organizing strategy Team Markey employed](https://medium.com/@emma.h.friend/ed-markeys-relational-first-organizing-approach-137bbfc4852).
+A volunteer relational organizing tool developed for Ed Markey's 2020 senate re-elect. [Read more about the relational organizing strategy Team Markey employed](https://medium.com/@emma.h.friend/ed-markeys-relational-first-organizing-approach-137bbfc4852).
 
-**In The Wild!!**
+This app gives volunteers the chance to sign up as supporters, and then to recruit their friends to join the campaign as supporters in turn through their personalized online page.
 
-- [Tedra Cobb, NY-21](https://tedra-friendbank.herokuapp.com/)
-- [Patricia Timmons-Goodson, NC-08](https://support.timmonsgoodsonforcongress.com/)
-- [Iowa Democrats](http://supportiowadems.com/)
+In addition to the Markey campaign, the app was also used by Tedra Cobb, Patricia Timmons-Goodson, and the Iowa Democrats.
 
 ## Local Development
 
