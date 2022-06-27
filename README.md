@@ -1,7 +1,5 @@
 # friendbank
 
-**NOTE**: This project is no longer actively maintained.
-
 A relational organizing tool developed for Ed Markey's 2020 senate re-elect. [Read more about the relational organizing strategy Team Markey employed](https://medium.com/@emma.h.friend/ed-markeys-relational-first-organizing-approach-137bbfc4852).
 
 **In The Wild!!**
@@ -35,7 +33,13 @@ You may edit the `campaignResult.domains` array and include your hostname: [src/
 
 You must then seed the production database 
 
-    $ MONGODB_URL=mongodb+srv://<...> npm run seed`
+```
+# from your local machine. nb the container name may change, use `docker ps` to find your container name
+docker exec -it friendbank_api //bin/bash
+# while ssh'd into the docker container..
+$ MONGODB_URL=mongodb+srv://<...> npm run seed`
+```
+
 
 with your hostname and any other [customizations](#customization) changes ind the seed.js file.
 
